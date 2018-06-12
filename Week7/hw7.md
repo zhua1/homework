@@ -2,7 +2,7 @@
 # Twitter Sentiments using Vader [BBC, CNN, CBS, FOX, NYtimes]
 ## 1. CNN and the New York Times is on average neutral in their published tweets
 ## 2. CBS is the most positive out of the five (.35)
-## 3. BBC and FOX are more positive than [CNN and the NYtimes]  but less than CBS.
+## 3. BBC and FOX are more positive than [CNN and the NYtimes]  but less than CBS
 
 
 ```python
