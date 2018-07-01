@@ -252,7 +252,6 @@ USING (country_id);
 /* 7h. List the top five genres in gross revenue in descending order. */
 SELECT D.category_name, SUM(C.amount) AS 'gross_revenue'
 FROM (
-
 	SELECT B.film_id, A.amount
 	FROM (
 		SELECT r.inventory_id, p.rental_id, p.amount
