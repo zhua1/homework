@@ -218,68 +218,6 @@ tobs = pd.read_sql('measurements', conn, parse_dates={'date': {'format': '%Y-%m-
 
 
 ```python
-tobs.head()
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>date</th>
-      <th>tobs</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2010-01-01</td>
-      <td>65</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2010-01-02</td>
-      <td>63</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2010-01-03</td>
-      <td>74</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2010-01-04</td>
-      <td>76</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2010-01-07</td>
-      <td>70</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-
-```python
 # Write a function called calc_temps that will accept a start date and end date in the format %Y-%m-%d 
 # and return the minimum, average, and maximum temperatures for that range of dates.
 def calc_temps(start, end):
