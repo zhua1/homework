@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Homework </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<style type = 'text/css'>
+    #title_ { 
+        color: white;
+        background-color: rgb(6, 170, 6);
+        font-size: 25pt;
+        font-weight: bold;
+    }
+    .font_ {
+        color: rgb(6, 170, 6);
+        font-size: 25pt;
+        font-weight: bold;
+    }
+    .gap-30 {
+        width:100%;
+        height:30px;
+	  }
+    .gap-15 {
+        width:100%;
+        height:15px;
+	  }
+    #border {
+        border: 1px solid orange;
+    }
+</style>
+
+<body>
+  <nav class="navbar navbar-default", style="background-color: lightgrey;">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a id="title_" class="navbar-brand">Latitude</a>
+      </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="image_1_html.html">Max Temperature</a></li>
+            <li><a href="image_2_html.html">Humidity</a></li>
+            <li><a href="image_3_html.html">Cloudiness</a></li>
+            <li><a href="image_4_html.html">Wind Speed</a></li>
+          </ul>
+        </li>
+        <li><a href="comparison_html.html">Comparison</a></li>
+        <li><a href="data_html.html">Data</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8" style="border-radius: 25px; background-color: lightgrey;">
+        <div class = 'gap-30'></div>
+        <p class = "font_">Wind Speed</p>
+        <hr>  
+        <img class="img-responsive center-block" src="./images/image_4.png" alt="City Temperature VS Latitude" style="width:700px;height:600px;">
+        <div class = 'gap-30'></div>
+        <p style="font-size:17px;">Wind speed slighly decreases as one approaches the equator (0 Deg.Latitude).</p>
+        <div class = 'gap-15'></div>
+      </div>
+      
+      <div class="col-md-4" style="border-radius: 25px; background-color: white;">
+        <div class = 'gap-30'></div>
+        <p class = "font_">Visualizations</p>
+        <hr> 
+        <div class="row">                       
+          <div class="col-md-6">
+            <a href="image_1_html.html">
+                <img class="img-responsive" src="./images/image_1.png" alt="City Temperature VS Latitude">  
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="image_2_html.html">
+                <img class="img-responsive" src="./images/image_2.png" alt="City Latitude VS Humidity">
+            </a>
+          </div>
+        </div>
+        <div class="row">                       
+          <div class="col-md-6">
+            <a href="image_3_html.html">
+                <img class="img-responsive" src="./images/image_3.png" alt="City Latitude VS Cloudiness">  
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="image_4_html.html">
+                <img id = border class="img-responsive" src="./images/image_4.png" alt="City Latitude VS Wind Speed">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
