@@ -14,7 +14,8 @@
 
 7. SQLAlchemy
 
-8. Flask
-9. HTML.CSS.Java
+8. FlaskAPI
 
-10. MongoDB
+9. HTML.CSS.Bootstrap.Java
+
+10. MongoDB/Flask
