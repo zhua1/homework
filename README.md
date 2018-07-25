@@ -16,6 +16,6 @@
 
 8. FlaskAPI
 
-9. HTML.CSS.Bootstrap.Java
+9. HTML.CSS.Bootstrap
 
-10. MongoDB/Flask
+10. MongoDB.Flask.JavaScript
