@@ -16,6 +16,6 @@
 
 8. FlaskAPI
 
-9. HTML.CSS.Bootstrap [Click Here](http://zhua1.github.io)
+9. HTML.CSS.Bootstrap [Click Here](http://zhua1.github.io/html)
 
-10. MongoDB.Flask.JavaScript
+10. MongoDB.Flask [Click Here](http://zhua1.github.io/mars)
