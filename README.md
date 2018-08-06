@@ -20,10 +20,6 @@
 
 10. MongoDB.Flask [Click Here](http://zhua1.github.io/mars)
 
-<<<<<<< HEAD
 11. JavaScript.d3 [Click Here](http://zhua1.github.io/ufo)
 
 12. Belly Button Biodiversity
-=======
-11. JavaScript.d3 [Click Here](http://zhua1.github.io/d3)
->>>>>>> bfa707db4ba209fd2e73897c5b83376aa803faa4
