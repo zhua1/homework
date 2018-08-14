@@ -108,7 +108,7 @@ function makeResponsive() {
     var toolTip = d3.tip()
       .attr("class", "d3-tip")
       .html(function(d) {
-        return (`Poverty %: <strong>${d.poverty}</strong><br>Healthcare %: <strong>${d.healthcare}</strong>`);
+        return (`<strong>${d.state}</strong><br>Poverty %: <strong>${d.poverty}</strong><br>Healthcare %: <strong>${d.healthcare}</strong>`);
       })
 
     // Step 2: Create the tooltip in chartGroup.
