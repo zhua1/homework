@@ -26,4 +26,4 @@
 
 13. D3 Scatter Plot w/ Tooltip [Click Here](http://zhua1.github.io/d3Graph)
 
-14. Leaflet Earthquake [Click Here](https://zhua1/github.io/leaflet)
+14. Leaflet Earthquake [Click Here](https://zhua1.github.io/leaflet)
