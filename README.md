@@ -1,4 +1,4 @@
-# Added Tableau HW
+# Added Kaggle Titanic Survival Machine Learning
 
 1. Excel
 
@@ -29,3 +29,7 @@
 14. Leaflet Earthquake [Click Here](https://zhua1.github.io/leaflet)
 
 15. Tableau (Citi Bike Rentals Analysis)
+
+16. Housing Price Machine Learning (Lasso, Ridge, ElasticNet)
+
+17. Kaggle Titanic Machine Learning (Random Forest, Logistic, KNN)
